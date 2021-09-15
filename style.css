@@ -1,8 +1,22 @@
 body,
 * {
     margin: 0;
+    font-family: 'Courier New', Courier, monospace;
 }
 div,
 p {
     box-sizing: border-box;
+}
+
+#root {
+    opacity: 0;
+    transition: all ease 0.5s;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1024px;
+    padding: 10px;
+    background-color: lightblue;
 }
